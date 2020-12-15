@@ -2,7 +2,7 @@
   "name": "naviweb-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://insane3000.github.io/naviweb-react",
+  "homepage": "https://lancenter.tips",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -15,7 +15,7 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "predeploy": "npm run build && echo 'lancenter.tips' > ./build/CNAME",
+    "predeploy": "npm run build && echo lancenter.tips > ./build/CNAME",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
