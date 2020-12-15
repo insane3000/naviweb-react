@@ -1,14 +1,14 @@
 import React from 'react'
 import './styles/main.scss';
-import Left from './left'
-import Right from './right'
+import Left from './Left'
+import Right from './Right'
 
 
 
 const App = () => (
     <>
     <Left />
-    <Right name="EDteam"/>
+    <Right name=""/>
     </>
 )
 
