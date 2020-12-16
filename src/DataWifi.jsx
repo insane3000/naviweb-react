@@ -1,11 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const DataWifi = ({icon, text}) => (<div className="data-wifi">
-    <i class={icon}></i>
-    <p>{text}</p>
-
-</div>
+const DataWifi = ({icon, text,className}) => (
+    <div className={className}>
+        <div className="png-container"><i class={icon}></i></div>
+        <p>{text}</p>
+    </div>
 )
 
 DataWifi.propTypes = {

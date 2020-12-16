@@ -1,4 +1,4 @@
-.left{
+.left {
     width: 20%;
     height: 100%;
     background: #070707;
@@ -6,32 +6,82 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    .logo{
+
+    .logo {
         // background: red;
         width: 80%;
         margin-top: 3vw;
+        margin-bottom: 3vw;
         transition: 0.1s;
-        &:hover{
+
+        &:hover {
             transform: scale(1.1);
             transition: 0.1s;
         }
     }
-    .data-wifi{
-        width: 100%;
-        height: 5vw;
-        background: blue;
+    .h3-wifi{
+        width: 80%;
+        margin: 0;
+        font-family: Calibri;
+        font-weight: 300;
+    }
+    hr{
+        background: rgb(43, 43, 43);
+        width: 80%;
+        height: 0.05vw;
+        border: none;
+        margin-top: 0.1vw;
+        margin-bottom: 0.1vw;
+        // border: 0.1vw solid rgb(44, 44, 44);
+    }
+    .data-wifi {
+        width: 80%;
+        height: 3vw;
+        background: #141414;
         display: flex;
         flex-direction: row;
         align-items: center;
-        img{
-            height: 90%;
+        margin-top: 0.5em;
+        font-size:  1vw;
+        font-family: Calibri;
+        border-radius: 0.2vw;
+
+        .png-container {
+            // background: lime;
+            width: 20%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
-        p{
-            background: red;
+
+        p {
+            // background: red;
             width: 80%;
             height: 100%;
             font-size: 0.8em;
-
+            display: flex;
+            justify-content: felx-start;
+            align-items: center;
+            font-size: 1em;
         }
+
+    }
+
+    .font-color {
+        background: none;
+        .png-container{
+            width: 10%;
+            i {
+                color: red;
+                font-size: 1.1vw;
+            }
+        }
+
+        p {
+            color: red;
+            font-size: 0.8vw;
+        }
+
     }
 }
