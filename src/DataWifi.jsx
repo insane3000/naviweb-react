@@ -10,12 +10,14 @@ const DataWifi = ({icon, text,className}) => (
 
 DataWifi.propTypes = {
     text: PropTypes.string,
-    image: PropTypes.string
+    icon: PropTypes.string,
+    className: PropTypes.string
 }
 
 DataWifi.defaultProps = {
     text: "Default text",
-    icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Thumb_up_icon_2.svg/1200px-Thumb_up_icon_2.svg.png"
+    icon: "",
+    className:""
 }
 
 export default DataWifi
