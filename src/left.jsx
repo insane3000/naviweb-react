@@ -25,7 +25,7 @@ const menus = [
         icon: "fas fa-home",
         text: "Home",
         className: "data-menu",
-        href: "#"
+        href: "index.html"
         
     },
     {
@@ -60,7 +60,7 @@ const menus = [
 
 const Left = () => (
     <div className="left">
-        <img className="logo" src={logo} alt="Logo de navi games cbba" />
+        <a className="logo" href="index.html"><img  src={logo} alt="Logo de navi games cbba" /></a>
         <h3 className="h3-wifi">Wi-Fi</h3>
         <hr />
         {datas.map(c => <DataWifi icon={c.icon} text={c.text} className={c.className} />)}

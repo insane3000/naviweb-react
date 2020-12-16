@@ -13,6 +13,10 @@
         margin-top: 3vw;
         margin-bottom: 3vw;
         transition: 0.1s;
+        img{
+            // height: 100%;
+            width: 100%;
+        }
 
         &:hover {
             transform: scale(1.1);
@@ -32,7 +36,7 @@
         height: 0.05vw;
         border: none;
         margin-top: 1vw;
-        margin-bottom:0vw;
+        margin-bottom:0.2vw;
         // border: 0.1vw solid rgb(44, 44, 44);
     }
     .data-wifi {
