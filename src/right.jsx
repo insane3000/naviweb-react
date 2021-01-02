@@ -1,8 +1,9 @@
 import React from 'react'
+import Games from './Games'
 
 const Right = () => (
     <div className="right" >
-        <h2>Right</h2>
+        <Games />
     </div>
 )
 export default Right 
