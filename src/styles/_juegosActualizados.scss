@@ -1,22 +1,37 @@
 .juegos-actualizados {
     width: 100%;
     height: auto;
-    background: red;
-    padding: 0;
-    margin: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     h2 {
         width: 40vw;
         height: 5vw;
-        background: #ff006a;
+        
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 3vw;
         color: white;
         box-shadow: 1px 1px 10px 0px #646464;
+        margin: 1vw;
+        font-family: 'Roboto', sans-serif;
+        font-size: 3vw;
     }
+    .juegos-color-h2{
+        background: #ff006a;
+    }
+    .promos-color-h2{
+        background: #0099ff;
+    }
+    
     span{
         width: 100%;
-        background: lime;
+        margin: 1vw;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        color: #000000;
+        font-size: 1.6vw;
     };
 }
