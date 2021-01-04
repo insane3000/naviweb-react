@@ -1,0 +1,103 @@
+.slider {
+    width: 100%;
+    height: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:black;
+    position: relative;
+    overflow: hidden;
+
+    .img-photos {
+        animation: fade 0.3s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        object-fit: cover;
+    }
+
+    @keyframes fade {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    /* Arrows*/
+    i {
+        position: absolute;
+        width: 10%;
+        height: 100%;
+        color: white;
+        user-select: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        transition: all 0.1s ease;
+        font-size: 5vw;
+        color: rgba(255, 255, 255, 0.5);
+        transition: all 0.1s ease;
+        // background: red;
+        cursor: pointer;
+    }
+
+    .prev {
+        left: 0;
+    }
+
+    .next {
+        right: 0;
+    }
+
+
+
+    .active-arrow {
+        background-color: rgba(0, 0, 0, 0.3);
+        transition: all 0.1s ease;
+        color: white;
+    }
+
+
+
+    //Dots
+    .dots-container {
+        // background: red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        position: absolute;
+        bottom: 2vh;
+        // background: blue;
+
+        .dot {
+            cursor: pointer;
+            margin: 0.5em;
+            height: 1.5vw;
+            width: 1.5vw;
+            color: #333;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.1);
+            transition: 0.1s;
+
+            &:hover {
+                background: rgb(255, 255, 255);
+                transition: 0.1s;
+            }
+
+            &.active {
+                background: rgba(255, 255, 255, 0.6);
+            }
+        }
+
+        .active {
+            background: rgba(255, 255, 255, 0.6);
+        }
+    }
+}

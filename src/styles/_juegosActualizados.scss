@@ -1,0 +1,22 @@
+.juegos-actualizados {
+    width: 100%;
+    height: auto;
+    background: red;
+    padding: 0;
+    margin: 0;
+    h2 {
+        width: 40vw;
+        height: 5vw;
+        background: #ff006a;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 3vw;
+        color: white;
+        box-shadow: 1px 1px 10px 0px #646464;
+    }
+    span{
+        width: 100%;
+        background: lime;
+    };
+}
