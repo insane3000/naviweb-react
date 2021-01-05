@@ -7,7 +7,7 @@ class Intro extends Component {
 
     render() {
         return (
-            <div className="intro">
+            <div className="intro" id="intro">
                 <div className="intro-data">
                     <h2>Navi Games Cbba</h2>
                     <h3>Un lugar tranquilo para jugar!</h3>

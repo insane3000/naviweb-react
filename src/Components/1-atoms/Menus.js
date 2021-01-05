@@ -4,7 +4,7 @@ const Menus = [
         icon: "fas fa-home",
         text: "Home",
         className: "data-menu",
-        href: "#slider"
+        href: "#intro"
         
     },
     {
