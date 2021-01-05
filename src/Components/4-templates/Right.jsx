@@ -1,12 +1,14 @@
 import React from 'react'
-import Slider from '../3-organisms/Slider'
+// import Slider from '../3-organisms/Slider'
+import Intro from '../3-organisms/Intro'
 import Games from '../3-organisms/Games'
 import Contenido from '../3-organisms/Contenido'
 import Promociones from '../3-organisms/Promociones'
 import Mapa from '../3-organisms/Mapa'
 const Right = () => (
     <div className="right" >
-        <Slider />
+        {/* <Slider /> */}
+        <Intro />
         <Contenido 
         link="juegos"
         className="juegos-color-h2"
