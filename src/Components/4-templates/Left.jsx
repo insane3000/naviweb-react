@@ -7,7 +7,7 @@ import Menus from '../1-atoms/Menus';
 
 const Left = () => (
     <div className="left">
-        <a className="logo" href="index.html"><img  src={logo} alt="Logo de navi games cbba" /></a>
+        <a className="logo" href="index.html"><img  src={logo} alt="Logo de navi games cbba" loading="lazy" /></a>
         <h3 className="h3-wifi">Wi-Fi</h3>
         <hr />
         {Datas.map(c => <DataWifi key={c.id} icon={c.icon} text={c.text} className={c.className} />)}
