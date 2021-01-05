@@ -5,7 +5,7 @@
     justify-content: center;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    background: red;
+    // background: red;
     // overflow: hidden;
 
 
@@ -30,16 +30,19 @@
             color: white;
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            justify-content: flex-end;
             align-items: center;
+
             h2 {
                 font-family: 'Luckiest Guy', cursive;
                 font-size: 4.5vw;
                 text-shadow: 2px 2px 5px black;
                 text-align: center;
                 margin: 0;
+                text-transform: uppercase;
             }
-            h3{
+
+            h3 {
                 font-family: 'Roboto';
                 font-size: 1.5vw;
                 text-shadow: 2px 2px 5px black;
@@ -47,34 +50,42 @@
                 text-transform: uppercase;
                 padding: 0vw 1vw;
             }
-            span{
+
+            span {
                 font-family: 'Roboto';
                 font-size: 1.5vw;
-                font-weight:normal;
+                font-weight: normal;
                 text-shadow: 2px 2px 5px black;
                 text-align: center;
                 padding: 0vw 2vw;
+                margin-bottom: 2vw;
             }
 
         }
-        .degradado1{
+
+        .degradado1 {
             background: linear-gradient(0deg, #7822c3 0%, rgba(224, 253, 45, 0) 39%);
         }
-        .degradado2{
+
+        .degradado2 {
             background: linear-gradient(0deg, #a922c3 0%, rgba(224, 253, 45, 0) 39%);
         }
-        .degradado3{
+
+        .degradado3 {
             background: linear-gradient(0deg, #94005f 0%, rgba(224, 253, 45, 0) 39%);
         }
-        .degradado4{
+
+        .degradado4 {
             background: linear-gradient(0deg, #b30000 0%, rgba(224, 253, 45, 0) 62%);
         }
-        .degradado5{
+
+        .degradado5 {
             background: linear-gradient(0deg, #ff0074 0%, rgba(224, 253, 45, 0) 62%);
         }
-        .degradado6{
+
+        .degradado6 {
             background: linear-gradient(0deg, #ffaf00 0%, rgba(224, 253, 45, 0) 62%);
         }
-        
+
     }
 }

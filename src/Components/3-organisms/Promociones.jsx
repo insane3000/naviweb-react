@@ -10,17 +10,19 @@ class Promociones extends Component {
         return (
             <div className="promociones">
                 {promos.map(i =>
-                <div className="promo">
-                    <img key={i.id} className="img-promo" src={i.img} alt={i.h2} />
-                    <div class={`${i.className1} ${i.className2}`}>
-                        <h2>{i.h2}</h2>
-                        <h3>{i.h3}</h3>
-                        <span>{i.contenido1}</span>
-                        <span>{i.contenido2}</span>
+                    <div className="promo">
+                        <img key={i.id} className="img-promo" src={i.img} alt={i.h2} />
+                        <div class={`${i.className1} ${i.className2}`}>
+                            <h2>{i.h2}</h2>
+                            <h3>{i.h3}</h3>
+                            <span>
+                                {i.contenido1} <br />
+                                {i.contenido2}
+                            </span>
 
-                    </div>
-                </div>)}
-                
+                        </div>
+                    </div>)}
+
             </div>
         )
     }

@@ -8,6 +8,7 @@ const Right = () => (
     <div className="right" >
         <Slider />
         <Contenido 
+        link="juegos"
         className="juegos-color-h2"
         titulo="JUEGOS ACTUALIZADOS" 
         contenido1="A continuación te mostramos los juegos más populares de" 
@@ -17,6 +18,7 @@ const Right = () => (
         />
         <Games />
         <Contenido 
+        link="promos"
         className="promos-color-h2"
         titulo="NUESTRAS PROMOCIONES" 
         // contenido1="No tienes que perderte!" 
@@ -25,9 +27,10 @@ const Right = () => (
         />
         <Promociones />
         <Contenido 
+        link="mapa"
         className="ubicacion-color-h2"
         titulo="NUESTRA UBICACION" 
-        contenido1="Estamos ubicados en la calle Jordan.
+        contenido1="Calle Jordan.
         Entre 16 de julio y antezana Nº723 acera norte." 
         negrita="Planta baja del instituto INAP."
         contenido2="Abrimos de 7:30 am a 10:00 pm. Y lechu los fines de semana... :D"

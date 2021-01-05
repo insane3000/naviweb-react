@@ -4,7 +4,7 @@ const Menus = [
         icon: "fas fa-home",
         text: "Home",
         className: "data-menu",
-        href: "index.html"
+        href: "#slider"
         
     },
     {
@@ -12,14 +12,14 @@ const Menus = [
         icon: "fab fa-steam",
         text: "Juegos Actualizados",
         className: "data-menu",
-        href: "#"
+        href: "#juegos"
     },
     {
         id:"3",
         icon: "fas fa-cog",
         text: "Promociones",
         className: "data-menu",
-        href: "#"
+        href: "#promos"
     }
     ,
     {
@@ -27,7 +27,7 @@ const Menus = [
         icon: "fas fa-map-marker-alt",
         text: "Ubicacion",
         className: "data-menu",
-        href: "#"
+        href: "#mapa"
     }
     ,
     {

@@ -1,20 +1,20 @@
 let photos = [
     {   
         id:"1",
-        promo:"lechu",
-        photo: "https://insane3000.github.io/images/photos/img02.jpg"
+        promo:"heroe de la semana",
+        photo: "https://insane3000.github.io/images/photos/promo-banner1.webp"
         
     },
     {   
         id:"2",
-        promo:"inmortal",
-        photo: "https://insane3000.github.io/images/photos/img03.jpg"
+        promo:"promo banner 1",
+        photo: "https://insane3000.github.io/images/photos/promo-banner2.webp"
         
     },
     {   
         id:"3",
-        promo:"puntos",
-        photo: "https://insane3000.github.io/images/photos/img05.jpg"
+        promo:"promo banner 2",
+        photo: "https://insane3000.github.io/images/photos/promo-banner3.webp"
         
     }
     
