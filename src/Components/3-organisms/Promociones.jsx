@@ -10,9 +10,9 @@ class Promociones extends Component {
         return (
             <div className="promociones">
                 {promos.map(i =>
-                    <div className="promo">
-                        <img key={i.id} className="img-promo" src={i.img} alt={i.h2} loading="lazy" />
-                        <div class={`${i.className1} ${i.className2}`}>
+                    <div key={i.h2} className="promo">
+                        <img  className="img-promo" src={i.img} alt={i.h2} loading="lazy" />
+                        <div className={`${i.className1} ${i.className2}`}>
                             <h2>{i.h2}</h2>
                             <h3>{i.h3}</h3>
                             <span>

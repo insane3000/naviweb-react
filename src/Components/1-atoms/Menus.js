@@ -1,6 +1,6 @@
 const Menus = [
     {
-        id:"1",
+        id:"homelink",
         icon: "fas fa-home",
         text: "Home",
         className: "data-menu",
@@ -8,14 +8,14 @@ const Menus = [
         
     },
     {
-        id:"2",
+        id:"gameslink",
         icon: "fab fa-steam",
         text: "Juegos Actualizados",
         className: "data-menu",
         href: "#juegos"
     },
     {
-        id:"3",
+        id:"promoslink",
         icon: "fas fa-cog",
         text: "Promociones",
         className: "data-menu",
@@ -23,9 +23,9 @@ const Menus = [
     }
     ,
     {
-        id:"4",
+        id:"mapalink",
         icon: "fas fa-map-marker-alt",
-        text: "Ubicacion",
+        text: "Ubicación",
         className: "data-menu",
         href: "#mapa"
     }

@@ -10,7 +10,7 @@ class Games extends Component {
     render() {
         return (
             <div className="games">
-                {games.map(i =><a href={i.href}><img key={i.game} className="img-games" src={i.img} alt={i.game} loading="lazy" /></a>)}
+                {games.map(i =><a key={i.game} target="_blank" href={i.href}><img key={i.game} className="img-games" src={i.img} alt={i.game} loading="lazy"  /></a>)}
             </div>
         )
     }

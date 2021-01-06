@@ -1,17 +1,43 @@
-body{
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     // background: #000;
     // color: white;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
-#root{
+
+#root {
     width: 100vw;
     height: 100vh;
     display: flex;
+    position: relative;
     @import 'left';
     @import 'right';
+
+    .menu-bar {
+        position: absolute;
+        width: 3.5em;
+        height: 3.5em;
+        background: rgb(245, 243, 243);
+        display: none;
+        justify-content: center;
+        align-items: center;
+        padding: 1vw;
+        border-radius: 1vw;
+        box-shadow: 1px 1px 10px 0px #646464;
+        left: 1em;
+        top: 1em;
+        @media only screen and (max-width: 767px) {
+            display: flex;
+        }
+        i{
+            font-size: 3em;
+            color: rgb(19, 18, 18);
+        }
+    }
     
+
 }

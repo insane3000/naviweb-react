@@ -12,7 +12,7 @@ class Intro extends Component {
                     <h2>Navi Games Cbba</h2>
                     <h3>Un lugar tranquilo para jugar!</h3>
                 </div>
-                <div class="intro-img">
+                <div className="intro-img">
                     <img src="https://insane3000.github.io/images/photos/mascota.webp" alt="mascota" />
                 </div>
             </div>
