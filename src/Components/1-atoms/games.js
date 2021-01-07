@@ -1,53 +1,61 @@
-let games = [
+import dota from "../../img/game1.webp"
+import lol from "../../img/game2.webp"
+import apex from "../../img/game3.webp"
+import wow from "../../img/game4.webp"
+import pubg from "../../img/game5.webp"
+import fortnite from "../../img/game6.webp"
+import csgo from "../../img/game7.webp"
+import freefire from "../../img/game8.webp"
+
+
+const games = [
     {   
         id:"1",
         game:"dota",
-        img: "https://insane3000.github.io/images/photos/game1.webp",
+        img: dota,
         href:"https://es.dota2.com/"
     },
     {   
         id:"2",
         game:"lol",
-        img: "https://insane3000.github.io/images/photos/game2.webp",
+        img: lol,
         href:"https://na.leagueoflegends.com/"
     },
     {   
         id:"3",
         game:"apex",
-        img: "https://insane3000.github.io/images/photos/game3.webp",
+        img: apex,
         href:"https://www.ea.com/es-es/games/apex-legends"
     },
     {   
         id:"4",
         game:"wow",
-        img: "https://insane3000.github.io/images/photos/game4.webp",
+        img: wow,
         href:"https://worldofwarcraft.com/es-es/"
     },
     {   
         id:"5",
         game:"pugb",
-        img: "https://insane3000.github.io/images/photos/game5.webp",
+        img: pubg,
         href:"https://www.pubg.com/es/"
     },
     {   
         id:"6",
         game:"fortnite",
-        img: "https://insane3000.github.io/images/photos/game6.webp",
+        img: fortnite,
         href:"https://www.epicgames.com/fortnite/es-ES/home"
     },
     {   
         id:"7",
         game:"csgo",
-        img: "https://insane3000.github.io/images/photos/game7.webp",
+        img: csgo,
         href:"https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/?l=spanish"
     },
     {   
         id:"8",
         game:"freefire",
-        img: "https://insane3000.github.io/images/photos/game8.webp",
+        img: freefire,
         href:"https://ffsoporte.garena.com/hc/es-419"
     },
-    
-    
 ]
 export default games
