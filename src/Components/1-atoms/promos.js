@@ -1,8 +1,17 @@
-let promos = [
+import promo1 from "../../img/promo1.webp"
+import promo2 from "../../img/promo2.webp"
+import promo3 from "../../img/promo3.webp"
+import promo4 from "../../img/promo4.webp"
+import promo5 from "../../img/promo5.webp"
+import promo6 from "../../img/promo6.webp"
+
+
+
+const promos = [
     {   
         id:"1",
         h2:"juega gratis!",
-        img: "https://insane3000.github.io/images/photos/promo1.webp",
+        img: promo1,
         h3:"¿ERES BUENO EN DOTA?",
         contenido1:"Saca un Rampage con el heroe de la semana.",
         contenido2:"Reclama 50Bs de crédito y 10 puntos.",
@@ -12,7 +21,7 @@ let promos = [
     {   
         id:"2",
         h2:"promo cumple",
-        img: "https://insane3000.github.io/images/photos/promo2.webp",
+        img: promo2,
         h3:"",
         contenido1:"En tu cumple trae tu carnet y reclama tu doble carga!",
         className1:"info",
@@ -21,7 +30,7 @@ let promos = [
     {   
         id:"3",
         h2:"acumula putos",
-        img: "https://insane3000.github.io/images/photos/promo3.webp",
+        img: promo3,
         h3:"",
         contenido1:"Por cada carga de 20bs el sistema te regala 4Bs o 4 puntos.",
         contenido2:"Esos puntos los puedes gastar como crédito o acumular para reclamar premios!",
@@ -31,7 +40,7 @@ let promos = [
     {   
         id:"4",
         h2:"promo rampage",
-        img: "https://insane3000.github.io/images/photos/promo4.webp",
+        img: promo4,
         h3:"¿ERES BUENO EN DOTA?",
         contenido1:"Saca un Rampage con el heroe de la semana.",
         contenido2:"En modo RANKING SOLO y reclama 20Bs de créditoy 4 puntos.",
@@ -41,7 +50,7 @@ let promos = [
     {   
         id:"5",
         h2:"promo domingo",
-        img: "https://insane3000.github.io/images/photos/promo5.webp",
+        img: promo5,
         h3:"",
         contenido1:"Aprovecha los domingos para comprar tu boleto...",
         contenido2:"Por 50Bs, obtienes 60bs y 12 puntos.",
@@ -51,11 +60,11 @@ let promos = [
     {   
         id:"6",
         h2:"cuenta inmortal",
-        img: "https://insane3000.github.io/images/photos/promo6.webp",
+        img: promo6,
         h3:"¿NECESITAS MAS TIEMPO Y MEJOR PRECIO",
         contenido1:"Crea tu cuenta INMORTAL, la hora es mas económica.",
         className1:"info",
         className2:"degradado6"
-    }       
+    }    
 ]
 export default promos

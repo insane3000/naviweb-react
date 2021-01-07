@@ -1,4 +1,5 @@
 import React, { Component } from "react"
+import mascota from '../../img/mascota.webp';
 class Intro extends Component {
 
     // constructor(props) {
@@ -13,7 +14,7 @@ class Intro extends Component {
                     <h3>Un lugar tranquilo para jugar!</h3>
                 </div>
                 <div className="intro-img">
-                    <img src="https://insane3000.github.io/images/photos/mascota.webp" alt="mascota" />
+                    <img src={mascota} alt="mascota" />
                 </div>
             </div>
         )
