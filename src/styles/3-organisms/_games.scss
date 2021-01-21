@@ -1,0 +1,42 @@
+.games {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+    // overflow: hidden;
+
+
+    .game-list {
+        width: 100%;
+        height: auto;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+
+        @media only screen and (max-width: 767px) {
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(4, 1fr);
+        }
+
+        a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .img-games {
+                width: 91%;
+                height: 91%;
+                object-fit: cover;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                transition: 0.1s;
+
+                &:hover {
+                    transform: scale(1.1);
+                    transition: 0.1s;
+                }
+            }
+        }
+    }
+}

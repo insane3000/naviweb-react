@@ -1,4 +1,4 @@
-const Menus = [
+const MenusJson = [
     {
         id:"homelink",
         icon: "fas fa-home",
@@ -27,7 +27,7 @@ const Menus = [
         icon: "fas fa-map-marker-alt",
         text: "Ubicación",
         className: "data-menu",
-        href: "#mapa"
+        href: "#ubicacion"
     }
     ,
     {
@@ -38,4 +38,4 @@ const Menus = [
         href: "https://www.facebook.com/NaviGamesCbba"
     }
 ]
-export default Menus
+export default MenusJson

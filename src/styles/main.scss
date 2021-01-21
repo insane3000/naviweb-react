@@ -14,8 +14,8 @@ body {
     height: 100vh;
     display: flex;
     position: relative;
-    @import 'left';
-    @import 'right';
+    @import './4-templates/left';
+    @import './4-templates/right';
 
     .menu-bar {
         position: absolute;

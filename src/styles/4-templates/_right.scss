@@ -6,19 +6,12 @@
     background: #E4E4E4;
     color: rgb(12, 12, 12);
     overflow-y: scroll;
-    @import 'slider';
-    @import 'intro';
-    @import 'contenido';
-    @import 'games';
-    @import 'promociones';
-    .mapa{
-        width: 100%;
-        height: 100vh;
-        iframe{
-            width: 100%;
-            height: 100%;
-        }
-    }
+    @import './3-organisms/intro';
+    @import './3-organisms/contenido';
+    @import './3-organisms/games';
+    @import './3-organisms/promociones';
+    @import './3-organisms/ubicacion';
+    
     
 }
 @media only screen and (max-width: 767px) {

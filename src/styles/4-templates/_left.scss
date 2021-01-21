@@ -11,7 +11,8 @@
     /*Estilos estándar experimentales (Principalmente Firefox)*/
     scrollbar-color: rgb(50, 50, 50) rgba(0, 0, 0, 0);
     scrollbar-width: thin;
-    @import 'scroll.scss';
+    @import '../1-atoms/scroll';
+
     .logo {
         // background: red;
         width: 80%;
@@ -21,7 +22,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        img{
+
+        img {
             // height: 100%;
             width: 100%;
         }
@@ -31,135 +33,120 @@
             transition: 0.1s;
         }
     }
-    .h3-wifi{
+
+    .h3-wifi {
         width: 80%;
         margin: 0;
         font-family: Calibri;
         font-weight: 300;
         font-size: 2vw;
     }
-    hr{
-        background: rgb(43, 43, 43);
+
+
+
+    .container-data-wifi {
         width: 80%;
-        height: 0.05vw;
-        border: none;
-        margin-top: 0;
-        margin-bottom:0.5vw;
-        // border: 0.1vw solid rgb(44, 44, 44);
+        height: 8vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        border-top: 1px solid rgb(61, 61, 61);
+        border-bottom: 1px solid rgb(61, 61, 61);
+        @media only screen and (max-width: 767px) {
+            display: none;
+        }
+
+        .container-interno-wifi {
+            width: 100%;
+            height: 3vw;
+            background: #141414;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            font-family: Calibri;
+            border-radius: 0.2vw;
+
+            i {
+                width: 20%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 1.4vw
+            }
+
+            p {
+                width: 80%;
+                height: 100%;
+                font-size: 0.8em;
+                display: flex;
+                justify-content: felx-start;
+                align-items: center;
+                font-size: 1.4vw;
+                font-weight: 300;
+            }
+
+
+        }
+
     }
-    .data-wifi {
+
+    .advertencia {
         width: 80%;
         height: 3vw;
-        background: #141414;
         display: flex;
         flex-direction: row;
         align-items: center;
-        margin-bottom: 0.5em;
         font-family: Calibri;
         border-radius: 0.2vw;
+        color: red;
+        @media only screen and (max-width: 767px) {
+            display: none;
+        }
 
-        .png-container {
-            // background: lime;
+        i {
             width: 20%;
             height: 100%;
             display: flex;
             justify-content: center;
             align-items: center;
-            font-size:  1.4vw
+            font-size: 1.4vw
         }
 
         p {
-            // background: red;
             width: 80%;
             height: 100%;
             font-size: 0.8em;
             display: flex;
             justify-content: felx-start;
             align-items: center;
-            font-size:  1.4vw;
+            font-size: .8vw;
             font-weight: 300;
         }
 
-    }
-
-    .font-color {
-        background: none;
-        .png-container{
-            width: 10%;
-            i {
-                color: red;
-                font-size: 1.1vw;
-            }
-        }
-
-        p {
-            color: red;
-            font-size: 0.8vw;
+        @media only screen and (max-width: 767px) {
+            display: none;
         }
 
     }
-    .menu-container{
-        width: 80%;
-        height: auto;
-        // background: blue;
-        margin-top: 1vw;
-        // margin-bottom: 0;
-        // margin-left:0;
-        // margin-right: 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        .data-menu{
-            width: 100%;
-            height: 2.5vw;
-            // background: #141414;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            margin: 0;
-            font-family: Calibri;
-            // border-radius: 0.2vw;
-            color: #4e4e4e;
-            text-decoration: none;
-            .png-menu-container {
-                // background: lime;
-                width: 20%;
-                height: 100%;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                font-size:  1.2vw
-            }
-    
-            p {
-                // background: red;
-                width: 80%;
-                height: 100%;
-                display: flex;
-                justify-content: felx-start;
-                align-items: center;
-                font-size:  1.2vw;
-                font-weight: 300;
-            }
-            &:hover{
-                background: rgb(15, 15, 15);
-                color: white;
-            }
-        }
-    }
-    #close{
+
+    @import '../2-molecules/menus';
+
+    #close {
         display: none;
     }
 }
+
 @media only screen and (max-width: 767px) {
     .left {
-      display: none;
-      
+        display: none;
+
     }
-    
-  }
-.left-menu{
+
+}
+
+.left-menu {
     display: flex;
     justify-content: space-evenly;
     position: absolute;
@@ -167,51 +154,60 @@
     height: 100%;
     background: black;
     z-index: 10;
-    animation: menuDown 0.1s linear 0s ;
+    animation: menuDown 0.1s linear 0s;
 
     .logo {
-        img{
+        img {
             width: 80%;
         }
-        
+
     }
-    .h3-wifi{
+
+    .h3-wifi {
         display: none;
     }
-    hr{
+
+    hr {
         display: none;
     }
+
     .data-wifi {
         display: none;
     }
-    .menu-container{
+
+    .menu-container {
         width: 80%;
-        .data-menu{
+
+        .data-menu {
             height: 3em;
             padding: 0;
+
             .png-menu-container {
-               
-                font-size:  2em;
+
+                font-size: 2em;
             }
-    
+
             p {
                 font-size: 1.5em;
             }
-           
+
         }
     }
-    #close{
+
+    #close {
         color: rgb(223, 223, 223);
         display: none;
         position: absolute;
         right: 0.8em;
         top: 0.8em;
         font-size: 2em;
+
         @media only screen and (max-width: 767px) {
             display: flex;
         }
     }
 }
+
 @keyframes menuDown {
     0% {
         top: -100%;

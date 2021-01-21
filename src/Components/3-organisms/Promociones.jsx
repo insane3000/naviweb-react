@@ -1,17 +1,26 @@
-import React, { Component } from "react"
+import React from "react"
 import promos from '../1-atoms/promos'
-class Promociones extends Component {
+const Promociones = () => {
 
     // constructor(props) {
     //     super(props)
     // }
 
-    render() {
-        return (
-            <div className="promociones">
+    return (
+        <div className="promociones">
+
+            <div className="contenido " id="promos">
+                <h2 className="promos-color-h2">NUESTRAS PROMOCIONES</h2>
+                <span>
+                    <strong>No tienes que perderte!</strong> <br />
+                    Nuestras promociones son salvajes , a continuación te mostramos algunas...
+                </span>
+            </div>
+
+            <div className="promos-list">
                 {promos.map(i =>
                     <div key={i.h2} className="promo">
-                        <img  className="img-promo" src={i.img} alt={i.h2} loading="lazy" />
+                        <img className="img-promo" src={i.img} alt={i.h2} loading="lazy" />
                         <div className={`${i.className1} ${i.className2}`}>
                             <h2>{i.h2}</h2>
                             <h3>{i.h3}</h3>
@@ -22,10 +31,10 @@ class Promociones extends Component {
 
                         </div>
                     </div>)}
-
             </div>
-        )
-    }
+        </div>
+
+    )
 
 
 
