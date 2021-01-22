@@ -16,7 +16,7 @@ const Left = () => (
             </div>
             <div className="container-interno-wifi">
                 <i className="fas fa-wifi"></i>
-                <p>lolita3000</p>
+                <p>dobi3000</p>
             </div>
         </div>
 

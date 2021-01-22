@@ -4,7 +4,7 @@ const Ubicacion = () => {
     return (
         <div className="ubicacion">
             <div className="contenido " id="ubicacion">
-                <h2 className="ubicacion-color-h2">NUESTRA UBICACION</h2>
+                <h2 className="ubicacion-color-h2">NUESTRA UBICACIÓN</h2>
                 <span>
                     Calle Jordan entre 16 de julio y antezana Nº723 acera norte. <br />
                     <strong>Planta baja del instituto INAP.</strong> <br />

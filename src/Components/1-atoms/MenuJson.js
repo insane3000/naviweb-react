@@ -5,7 +5,13 @@ const MenusJson = [
         text: "Home",
         className: "data-menu",
         href: "#intro"
-        
+    },
+    {
+        id:"reclama-puntos-link",
+        icon: "fas fa-coins",
+        text: "Reclama tu Puntos",
+        className: "data-menu",
+        href: "#reclama-puntos"
     },
     {
         id:"gameslink",
@@ -23,7 +29,7 @@ const MenusJson = [
     }
     ,
     {
-        id:"mapalink",
+        id:"ubicacionlink",
         icon: "fas fa-map-marker-alt",
         text: "Ubicación",
         className: "data-menu",
