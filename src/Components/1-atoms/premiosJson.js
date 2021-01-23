@@ -28,7 +28,7 @@ const premiosJson = [
     },
     {   
         id:"4",
-        precio:"450",
+        precio:"480",
         marca:"HYPERX",
         modelo:"PULSEFIRE SURGE",
         descripcion:"Ratón para videojuegos HyperX Pulsefire Surge RGB",
