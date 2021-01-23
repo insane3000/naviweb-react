@@ -21,7 +21,7 @@ const premiosJson = [
         id:"3",
         precio:"750",
         marca:"Steam",
-        modelo:"tarjeta de 50$",
+        modelo:"tarjeta de 100$",
         descripcion:"Para reclamar las tarjetas de Steam tienes que agregar a esta cuenta de Dota 2. ID: 124814842",
         img: 'https://1.bp.blogspot.com/-sAj3PpfzK0A/YAtvpFJW64I/AAAAAAAAI34/KEyhqyShun4EdkhD2AF37rsys8CKa0ukgCLcBGAsYHQ/s320/premio03.jpg',
         href:""
