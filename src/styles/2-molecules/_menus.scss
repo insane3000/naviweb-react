@@ -18,13 +18,12 @@
         color: #4e4e4e;
         text-decoration: none;
 
-        .png-menu-container {
-            width: 20%;
-            height: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 1.2vw
+        img {
+            width: 1.5vw;
+            height: 1.5vw;
+            margin-left: .5vw;
+            margin-right: .5vw;
+            filter: invert(0.7);
         }
 
         p {
@@ -40,6 +39,9 @@
         &:hover {
             background: rgb(15, 15, 15);
             color: white;
+            img{
+                filter: invert(0);
+            }
         }
     }
 }

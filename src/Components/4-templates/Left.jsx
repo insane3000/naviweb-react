@@ -1,21 +1,20 @@
 import React from 'react'
-import logo from '../../img/logo.webp';
 import Menus from '../2-molecules/Menus';
 import MenuJson from '../1-atoms/MenuJson';
 
 const Left = () => (
     <div className="left" id="left">
         <i className="fas fa-times" id="close"></i>
-        <a className="logo" href="index.html"><img src={logo} alt="Logo de navi games cbba" loading="lazy" /></a>
+        <a className="logo" href="index.html"><img src='https://1.bp.blogspot.com/-5zpomtRtkTs/YAty-hefDcI/AAAAAAAAI7M/6qGyAJYZZZgIY9zwzQZXiyreUHM2RDooACLcBGAsYHQ/s320/logo.webp' alt="Logo de navi games cbba" loading="lazy" /></a>
         <h3 className="h3-wifi">Wi-Fi</h3>
 
         <div className="container-data-wifi">
             <div className="container-interno-wifi">
-                <i className="fas fa-lock"></i>
+                <img src="https://1.bp.blogspot.com/-i1CVdDTN8Qk/YAt6O7fMaaI/AAAAAAAAI9Y/9GijJfmpmrg_-gOCxg2QK6OYNO5KNdhlQCLcBGAsYHQ/s200/wifi.png" alt="wifi icon"/>
                 <p>Natus Vincere</p>
             </div>
             <div className="container-interno-wifi">
-                <i className="fas fa-wifi"></i>
+                <img src="https://1.bp.blogspot.com/-lbc7hLJYbtA/YAt6Nb2RFWI/AAAAAAAAI9E/Phsw47befIMSQaFtGmMT60Q0KtrrpWDdgCLcBGAsYHQ/s200/candado.png" alt="candado icon"/>
                 <p>dobi3000</p>
             </div>
         </div>
