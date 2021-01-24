@@ -8,7 +8,7 @@ const Games = () => {
                 <h2 className="juegos-color-h2">JUEGOS ACTUALIZADOS</h2>
                 <span>
                     A continuación te mostramos los juegos más populares de <strong>Navi Games Cbba</strong> <br/>
-                    Si alguno no está actualizado, con solo notificar al quea tiende tu juego estará actualizado en cuestión de minutos.
+                    Si alguno no está actualizado, con solo notificar al que atiende tu juego estará actualizado en cuestión de minutos.
                 </span>
             </div>
 
