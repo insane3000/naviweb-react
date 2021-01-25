@@ -6,12 +6,12 @@
     background: #E4E4E4;
     color: rgb(12, 12, 12);
     overflow-y: scroll;
-    @import './3-organisms/intro';
-    @import './3-organisms/contenido';
-    @import './3-organisms/premios';
-    @import './3-organisms/games';
-    @import './3-organisms/promociones';
-    @import './3-organisms/ubicacion';
+    @import '../3-organisms/intro';
+    @import '../3-organisms/contenido';
+    @import '../3-organisms/premios';
+    @import '../3-organisms/games';
+    @import '../3-organisms/promociones';
+    @import '../3-organisms/ubicacion';
     
     
 }
