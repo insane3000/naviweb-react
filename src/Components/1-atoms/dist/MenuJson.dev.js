@@ -13,7 +13,7 @@ var MenusJson = [{
 }, {
   id: "reclama-puntos-link",
   icon: "https://1.bp.blogspot.com/-7FqAJuUSRKM/YAt6OjAVMrI/AAAAAAAAI9U/cuVKyIE6H6oj3oyjys_XaqtToKiw6zbIQCLcBGAsYHQ/s200/puntos.png",
-  text: "Reclama tus Puntos",
+  text: "Canjea tus Puntos",
   className: "data-menu",
   href: "#reclama-puntos"
 }, {
