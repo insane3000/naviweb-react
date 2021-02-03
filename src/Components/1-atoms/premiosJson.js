@@ -28,11 +28,11 @@ const premiosJson = [
     },
     {   
         id:"4",
-        precio:"480",
-        marca:"HYPERX",
-        modelo:"PULSEFIRE SURGE",
-        descripcion:"Ratón para videojuegos HyperX Pulsefire Surge RGB",
-        img: 'https://1.bp.blogspot.com/-cCkR25YLkuE/YAtvp4USKEI/AAAAAAAAI4E/twDbP7nhEPUo5_uOJk_0AkQgqeEEdxfHQCLcBGAsYHQ/s320/premio04.jpg',
+        precio:"900",
+        marca:"SAMSUNG",
+        modelo:"Galaxy A01",
+        descripcion:"Pantalla de 5.7 pulgadas, procesador de ocho nucleos, 2 gb de RAM doble camara y 32 Gb de almacenamiento.",
+        img: 'https://1.bp.blogspot.com/-p2FGlESko84/YBrxauL-7iI/AAAAAAAAJBU/cmXEcMEH4IoR8rZXFoDRcnoQ88PsVgJhwCLcBGAsYHQ/s1005/samsung-a01.jpg',
         href:""
     }
     ,
