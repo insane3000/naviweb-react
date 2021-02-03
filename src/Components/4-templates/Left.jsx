@@ -5,7 +5,7 @@ import MenuJson from '../1-atoms/MenuJson';
 const Left = () => (
     <div className="left" id="left">
         <i className="fas fa-times" id="close"></i>
-        <a className="logo" href="index.html"><img src='https://1.bp.blogspot.com/-5zpomtRtkTs/YAty-hefDcI/AAAAAAAAI7M/6qGyAJYZZZgIY9zwzQZXiyreUHM2RDooACLcBGAsYHQ/s320/logo.webp' alt="Logo de navi games cbba" loading="lazy" /></a>
+        <a className="logo" href="https://navigamescbba.com/"><img src='https://1.bp.blogspot.com/-5zpomtRtkTs/YAty-hefDcI/AAAAAAAAI7M/6qGyAJYZZZgIY9zwzQZXiyreUHM2RDooACLcBGAsYHQ/s320/logo.webp' alt="Logo de navi games cbba" loading="lazy" /></a>
         <h3 className="h3-wifi">Wi-Fi</h3>
 
         <div className="container-data-wifi">
