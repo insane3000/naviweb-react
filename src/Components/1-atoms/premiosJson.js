@@ -38,6 +38,15 @@ const premiosJson = [
     ,
     {   
         id:"5",
+        precio:"250",
+        marca:"DELUX ",
+        modelo:"DGH500",
+        descripcion:"Con almohadillas suaves hechas a mano de alta gama.",
+        img: 'https://1.bp.blogspot.com/-5-tPlhqFRso/YB2j7Jp5BcI/AAAAAAAAJCk/9sv7Yta6uc4SCEagHkwf6VAHDjqbH-YWwCLcBGAsYHQ/s500/delux-audifono.jpg',
+        href:""
+    },
+    {   
+        id:"6",
         precio:"450",
         marca:"AORUS",
         modelo:"Mouse M3",
@@ -46,7 +55,7 @@ const premiosJson = [
         href:""
     },
     {   
-        id:"6",
+        id:"7",
         precio:"490",
         marca:"HYPERX",
         modelo:"Alloy Core RGB",
@@ -55,7 +64,7 @@ const premiosJson = [
         href:""
     },
     {   
-        id:"7",
+        id:"8",
         precio:"290",
         marca:"LOGIC",
         modelo:"celular",
@@ -65,7 +74,7 @@ const premiosJson = [
     }
     ,
     {   
-        id:"8",
+        id:"9",
         precio:"60",
         marca:"WIN",
         modelo:"Super bass C8",
