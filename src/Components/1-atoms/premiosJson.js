@@ -56,11 +56,11 @@ const premiosJson = [
     },
     {   
         id:"7",
-        precio:"490",
-        marca:"HYPERX",
-        modelo:"Alloy Core RGB",
-        descripcion:"Barra de luz exclusiva con efectos RGB fluidos y con estilo",
-        img: 'https://1.bp.blogspot.com/-hzrINZoEgEc/YAtvqdJwiwI/AAAAAAAAI4M/Q4P-H56tyF4ikfKBKrHOpq4weuF3sRFhgCLcBGAsYHQ/s320/premio06.jpg',
+        precio:"350",
+        marca:"DELUX",
+        modelo:"KM 06",
+        descripcion:"Teclado mecanico, iluminado y con teclas intercambiables",
+        img: 'https://1.bp.blogspot.com/-UvGrok79ZRE/YB7lTkDmeYI/AAAAAAAAJDQ/qdYb3fwnERMPlQpGalejQUO_e3YLFvjfACLcBGAsYHQ/s320/delux%2Bkeyboard.jpg',
         href:""
     },
     {   
