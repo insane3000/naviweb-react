@@ -39,7 +39,7 @@ const premiosJson = [
     {   
         id:"5",
         precio:"250",
-        marca:"DELUX ",
+        marca:"DELUX",
         modelo:"DGH500",
         descripcion:"Con almohadillas suaves hechas a mano de alta gama.",
         img: 'https://1.bp.blogspot.com/-5-tPlhqFRso/YB2j7Jp5BcI/AAAAAAAAJCk/9sv7Yta6uc4SCEagHkwf6VAHDjqbH-YWwCLcBGAsYHQ/s500/delux-audifono.jpg',
@@ -47,40 +47,49 @@ const premiosJson = [
     },
     {   
         id:"6",
-        precio:"450",
-        marca:"AORUS",
-        modelo:"Mouse M3",
-        descripcion:"Sensor óptico de 6400 DPI de grado entusiasta (Pixart 3988) que le brinda la precisión óptima para juegos competitivos.",
-        img: 'https://1.bp.blogspot.com/-M3uuPSo7OHM/YAtvqXlnsFI/AAAAAAAAI4I/KehshUzAnNkX4Ct7CaQ3qpQoSEBNtvRZwCLcBGAsYHQ/s320/premio05.jpg',
+        precio:"180",
+        marca:"DELUX",
+        modelo:"M625",
+        descripcion:"Inspirado en el famoso DeathAdder de Razer. Materiales de buena calidad, cable enmallado y goma en los laterales para un buen agarre.",
+        img: 'https://1.bp.blogspot.com/-Z26u8ILA48I/YCGGxbSWY3I/AAAAAAAAJEM/IWAFkjowtCAVvgoY2ONhnHkxo6yHIhObQCLcBGAsYHQ/s800/1-1P6211GJIb.jpg',
         href:""
     },
     {   
         id:"7",
         precio:"350",
         marca:"DELUX",
-        modelo:"KM 06",
+        modelo:"KM06",
         descripcion:"Teclado mecanico, iluminado y con teclas intercambiables",
         img: 'https://1.bp.blogspot.com/-UvGrok79ZRE/YB7lTkDmeYI/AAAAAAAAJDQ/qdYb3fwnERMPlQpGalejQUO_e3YLFvjfACLcBGAsYHQ/s320/delux%2Bkeyboard.jpg',
         href:""
     },
     {   
         id:"8",
-        precio:"290",
-        marca:"LOGIC",
-        modelo:"celular",
-        descripcion:"Celular bolichero con Whatsapp",
-        img: 'https://1.bp.blogspot.com/-3Mby-fT8Z58/YAtvqlA9z3I/AAAAAAAAI4Q/Twx0X1N91VgXcEXyRCP2nR0pKH1E3RFMwCLcBGAsYHQ/s320/premio07.jpg',
+        precio:"450",
+        marca:"AORUS",
+        modelo:"Mouse M3",
+        descripcion:"Sensor óptico de 6400 DPI de grado entusiasta (Pixart 3988) que le brinda la precisión óptima para juegos competitivos.",
+        img: 'https://1.bp.blogspot.com/-M3uuPSo7OHM/YAtvqXlnsFI/AAAAAAAAI4I/KehshUzAnNkX4Ct7CaQ3qpQoSEBNtvRZwCLcBGAsYHQ/s320/premio05.jpg',
         href:""
     }
-    ,
-    {   
-        id:"9",
-        precio:"60",
-        marca:"WIN",
-        modelo:"Super bass C8",
-        descripcion:"Audifonos con buena calidad de sonido y fuertes bajos.",
-        img: 'https://1.bp.blogspot.com/-w4jSEVK29uI/YAtvq7jy7UI/AAAAAAAAI4U/uWudztu_AE0wCpFqfOS9FPq82s0FemOdACLcBGAsYHQ/s320/premio08.jpg',
-        href:""
-    }
+    // {   
+    //     id:"9",
+    //     precio:"290",
+    //     marca:"LOGIC",
+    //     modelo:"celular",
+    //     descripcion:"Celular bolichero con Whatsapp",
+    //     img: 'https://1.bp.blogspot.com/-3Mby-fT8Z58/YAtvqlA9z3I/AAAAAAAAI4Q/Twx0X1N91VgXcEXyRCP2nR0pKH1E3RFMwCLcBGAsYHQ/s320/premio07.jpg',
+    //     href:""
+    // }
+    // ,
+    // {   
+    //     id:"10",
+    //     precio:"60",
+    //     marca:"WIN",
+    //     modelo:"Super bass C8",
+    //     descripcion:"Audifonos con buena calidad de sonido y fuertes bajos.",
+    //     img: 'https://1.bp.blogspot.com/-w4jSEVK29uI/YAtvq7jy7UI/AAAAAAAAI4U/uWudztu_AE0wCpFqfOS9FPq82s0FemOdACLcBGAsYHQ/s320/premio08.jpg',
+    //     href:""
+    // }
 ]
 export default premiosJson
