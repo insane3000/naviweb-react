@@ -36,16 +36,20 @@
       border-radius: 0.2vw;
       overflow: hidden;
       position: relative;
-      @media only screen and (max-width: 767px) {
-        border-radius: .5vw;
-      }
-
       &:hover {
         transform: scale(1.1);
         transition: 0.1s;
         z-index: 1;
 
       }
+      @media only screen and (max-width: 767px) {
+        border-radius: .5vw;
+        &:hover {
+          transform: none;
+        }
+      }
+
+     
 
       .producto-img {
         width: 18vw;
