@@ -71,25 +71,25 @@ const premiosJson = [
         descripcion:"Sensor óptico de 6400 DPI de grado entusiasta (Pixart 3988) que le brinda la precisión óptima para juegos competitivos.",
         img: 'https://1.bp.blogspot.com/-M3uuPSo7OHM/YAtvqXlnsFI/AAAAAAAAI4I/KehshUzAnNkX4Ct7CaQ3qpQoSEBNtvRZwCLcBGAsYHQ/s320/premio05.jpg',
         href:""
+    },
+    {   
+        id:"9",
+        precio:"290",
+        marca:"LOGIC",
+        modelo:"celular",
+        descripcion:"Celular bolichero con Whatsapp",
+        img: 'https://1.bp.blogspot.com/-3Mby-fT8Z58/YAtvqlA9z3I/AAAAAAAAI4Q/Twx0X1N91VgXcEXyRCP2nR0pKH1E3RFMwCLcBGAsYHQ/s320/premio07.jpg',
+        href:""
     }
-    // {   
-    //     id:"9",
-    //     precio:"290",
-    //     marca:"LOGIC",
-    //     modelo:"celular",
-    //     descripcion:"Celular bolichero con Whatsapp",
-    //     img: 'https://1.bp.blogspot.com/-3Mby-fT8Z58/YAtvqlA9z3I/AAAAAAAAI4Q/Twx0X1N91VgXcEXyRCP2nR0pKH1E3RFMwCLcBGAsYHQ/s320/premio07.jpg',
-    //     href:""
-    // }
-    // ,
-    // {   
-    //     id:"10",
-    //     precio:"60",
-    //     marca:"WIN",
-    //     modelo:"Super bass C8",
-    //     descripcion:"Audifonos con buena calidad de sonido y fuertes bajos.",
-    //     img: 'https://1.bp.blogspot.com/-w4jSEVK29uI/YAtvq7jy7UI/AAAAAAAAI4U/uWudztu_AE0wCpFqfOS9FPq82s0FemOdACLcBGAsYHQ/s320/premio08.jpg',
-    //     href:""
-    // }
+    ,
+    {   
+        id:"10",
+        precio:"60",
+        marca:"WIN",
+        modelo:"Super bass C8",
+        descripcion:"Audifonos con buena calidad de sonido y fuertes bajos.",
+        img: 'https://1.bp.blogspot.com/-w4jSEVK29uI/YAtvq7jy7UI/AAAAAAAAI4U/uWudztu_AE0wCpFqfOS9FPq82s0FemOdACLcBGAsYHQ/s320/premio08.jpg',
+        href:""
+    }
 ]
 export default premiosJson
