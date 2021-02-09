@@ -7,7 +7,7 @@ const Tienda = () => {
         <h2 className="tienda-color-h2">TIENDA</h2>
         <span>
           <strong>
-            En Navi Games puedes comprar los siguientes productos...
+            En Navi Games puedes comprar los siguientes productos.
           </strong>{" "}
           <br />
           Son los que mejor resultados y experiencias nos han dado, te las

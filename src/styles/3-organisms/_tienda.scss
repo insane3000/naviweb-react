@@ -106,7 +106,8 @@
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
         @media only screen and (max-width: 767px) {
           top: 4vw;
-          left: 4vw;
+          right: 4vw;
+          left: auto;
           font-size: 6vw;
           padding: 1vw 2vw;
           border-radius: 1vw;
