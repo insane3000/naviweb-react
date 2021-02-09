@@ -1,72 +1,73 @@
 .contenido {
-    width: 100%;
-    height: auto;
-    overflow: hidden;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  @media only screen and (max-width: 767px) {
+    align-items: center;
+  }
+
+  h2 {
+    width: auto;
+    height: 5vw;
+    padding: 0vw 1vw;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    margin: 1vw;
+    font-family: "Roboto", sans-serif;
+    font-size: 3vw;
+    font-weight: 900;
+    text-transform: uppercase;
+    border-radius: .2vw;
 
     @media only screen and (max-width: 767px) {
-        align-items: center;
+      width: auto;
+      height: auto;
+      font-size: 1.5em;
+      padding: 0.5em;
     }
+  }
 
-    h2 {
-        width: 40vw;
-        height: 5vw;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: white;
-        box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
-        margin: 1vw;
-        font-family: 'Roboto', sans-serif;
-        font-size: 3vw;
-        text-transform: uppercase;
+  .reclama-puntos-color-h2 {
+    background: #ff0040;
+  }
+  .tienda-color-h2 {
+    background: #1b1a1a;
+    color: #ffffff;
+  }
+  .juegos-color-h2 {
+    background: #ff006a;
+  }
 
-        @media only screen and (max-width: 767px) {
-            width: auto;
-            height: auto;
-            font-size: 1.5em;
-            padding: 0.5em;
-        }
+  .promos-color-h2 {
+    background: #0099ff;
+  }
+
+  .ubicacion-color-h2 {
+    background: #ffbb00;
+    color: rgb(20, 20, 20);
+  }
+
+  span {
+    width: 95%;
+    margin-left: 1vw;
+    margin-bottom: 1vw;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #000000;
+    font-size: 1.6vw;
+
+    @media only screen and (max-width: 767px) {
+      width: auto;
+      height: auto;
+      font-size: 1em;
+      padding: 0.5em;
     }
-    
-    
-    .reclama-puntos-color-h2 {
-        background: #ff0040;
-    }
-
-    .juegos-color-h2 {
-        background: #ff006a;
-    }
-
-    .promos-color-h2 {
-        background: #0099ff;
-    }
-
-    .ubicacion-color-h2 {
-        background: #ffbb00;
-        color: rgb(20, 20, 20);
-    }
-
-    span {
-        width: 95%;
-        margin: 1vw;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 300;
-        color: #000000;
-        font-size: 1.6vw;
-        
-
-        @media only screen and (max-width: 767px) {
-            width: auto;
-            height: auto;
-            font-size: 1em;
-            padding: 0.5em;
-        }
-    }
-    
-
-    
+  }
 }
