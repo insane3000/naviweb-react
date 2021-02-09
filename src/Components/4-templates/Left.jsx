@@ -15,7 +15,7 @@ const Left = () => (
             </div>
             <div className="container-interno-wifi">
                 <img src="https://1.bp.blogspot.com/-lbc7hLJYbtA/YAt6Nb2RFWI/AAAAAAAAI9E/Phsw47befIMSQaFtGmMT60Q0KtrrpWDdgCLcBGAsYHQ/s200/candado.png" alt="candado icon"/>
-                <p>dobi3000</p>
+                <p>pocoyo3000</p>
             </div>
         </div>
 
