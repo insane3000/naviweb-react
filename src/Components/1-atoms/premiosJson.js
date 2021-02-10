@@ -117,7 +117,7 @@ const premiosJson = [
   },
   {
     id: "12",
-    precio: "85",
+    precio: "80",
     marca: "CONVERSOR",
     modelo: "VGA a HDMI",
     descripcion: "Convierte de vga a hdmi, no necesita energia externa.",
