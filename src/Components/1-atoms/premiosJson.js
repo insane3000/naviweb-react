@@ -135,5 +135,15 @@ const premiosJson = [
       "https://1.bp.blogspot.com/-AL1hXWdq9fU/YCQ3cKc76rI/AAAAAAAAJGw/l6qJTHF3eV0rjWtSB4avNIHOt385iWpdQCLcBGAsYHQ/s512/unnamed.jpg",
     href: "",
   },
+  {
+    id: "14",
+    precio: "120",
+    marca: "T&G",
+    modelo: "515",
+    descripcion: "Parlante portatil Bluethoot, acepta tarjetas micro SD.",
+    img:
+      "https://1.bp.blogspot.com/-5BeV1EFhpNU/YCV9kRUX8AI/AAAAAAAAJIE/0DJlPW6FmvQCqfma1nk7PrDO_c4r1pxOwCLcBGAsYHQ/s500/tg-515.jpg",
+    href: "",
+  },
 ];
 export default premiosJson;
