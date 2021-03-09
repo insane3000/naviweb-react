@@ -21,7 +21,7 @@ const Left = () => (
 
         <div className="advertencia">
             <i className="fas fa-exclamation"></i>
-            <p>Recuerda que la constraseña es renovada aleatoriamente.</p>
+            <p>Recuerda que la constraseña es renovada aleatoriamenteg.</p>
         </div>
 
         <div className="menu-container">
