@@ -145,5 +145,15 @@ const premiosJson = [
       "https://1.bp.blogspot.com/-5BeV1EFhpNU/YCV9kRUX8AI/AAAAAAAAJIE/0DJlPW6FmvQCqfma1nk7PrDO_c4r1pxOwCLcBGAsYHQ/s500/tg-515.jpg",
     href: "",
   },
+  {
+    id: "15",
+    precio: "100",
+    marca: "",
+    modelo: "T-041BT",
+    descripcion: "Audifonos inalambricos con case cargador.",
+    img:
+      "https://1.bp.blogspot.com/-D025fM57S44/YGOlbuGMh0I/AAAAAAAAJZM/S8Wn1rv58joA4rURr4aAVctj4q8MlVa5QCLcBGAsYHQ/s639/tomate.jpg",
+    href: "",
+  },
 ];
 export default premiosJson;

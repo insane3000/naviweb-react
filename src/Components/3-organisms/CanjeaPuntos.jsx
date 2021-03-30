@@ -22,7 +22,7 @@ const CanjeaPuntos = () => {
             </div>
             <div className="producto-data">
               <h2>
-                {i.marca}-{i.modelo}
+                {i.marca} {i.modelo}
               </h2>
               <h4>{i.descripcion}</h4>
             </div>

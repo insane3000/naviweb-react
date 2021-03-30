@@ -13,13 +13,13 @@ const MenusJson = [
         className: "data-menu",
         href: "#reclama-puntos"
     },
-    {
-        id:"tienda-link",
-        icon: "https://1.bp.blogspot.com/-HFc2DwTsKFM/YCHUxcGULYI/AAAAAAAAJFY/gcTCaE4D9XMHZDjxsNuVvwxXo57h9g82gCLcBGAsYHQ/s200/shop.png",
-        text: "Tienda",
-        className: "data-menu",
-        href: "#tienda"
-    },
+    // {
+    //     id:"tienda-link",
+    //     icon: "https://1.bp.blogspot.com/-HFc2DwTsKFM/YCHUxcGULYI/AAAAAAAAJFY/gcTCaE4D9XMHZDjxsNuVvwxXo57h9g82gCLcBGAsYHQ/s200/shop.png",
+    //     text: "Tienda",
+    //     className: "data-menu",
+    //     href: "#tienda"
+    // },
     {
         id:"gameslink",
         icon: "https://1.bp.blogspot.com/-rOQJIHQgA7s/YAt6OAXh6HI/AAAAAAAAI9I/BnZLzsaOyNIDTAbMg-9HYNWr2rQnoGPEwCLcBGAsYHQ/s200/juegos.png",

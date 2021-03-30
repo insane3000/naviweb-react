@@ -13,7 +13,7 @@ const Right = () => (
         {/* <Slider /> */}
         <Intro />
         <CanjeaPuntos />
-        <Tienda />
+        {/* <Tienda /> */}
         <Games />
         <Promociones />
         <Ubicacion />
