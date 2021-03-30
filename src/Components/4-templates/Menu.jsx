@@ -10,7 +10,7 @@ class Menu extends Component {
     let promoslink = document.getElementById("promoslink");
     let ubicacionlink = document.getElementById("ubicacionlink");
     let reclamaPuntosLink = document.getElementById("reclama-puntos-link");
-    let tiendaLink = document.getElementById("tienda-link");
+    // let tiendaLink = document.getElementById("tienda-link");
 
     menuBar.addEventListener("click", () => {
       Left.classList.add("left-menu");
@@ -33,9 +33,9 @@ class Menu extends Component {
     ubicacionlink.addEventListener("click", () => {
       Left.classList.remove("left-menu");
     });
-    tiendaLink.addEventListener("click", () => {
-      Left.classList.remove("left-menu");
-    });
+    // tiendaLink.addEventListener("click", () => {
+    //   Left.classList.remove("left-menu");
+    // });
   }
   render() {
     return (
