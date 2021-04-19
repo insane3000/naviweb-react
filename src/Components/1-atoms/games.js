@@ -43,11 +43,11 @@ const games = [
         img: 'https://1.bp.blogspot.com/-9fIVz8y1_t0/YAtxHUnwnFI/AAAAAAAAI50/bNq1dvKPF98aG8oXdGbEYIthvh1i4yI5QCLcBGAsYHQ/s600/game7.webp',
         href:"https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/?l=spanish"
     },
-    {   
-        id:"8",
-        game:"freefire",
-        img: 'https://1.bp.blogspot.com/-ruHxpeiHl4E/YAtxHrzftqI/AAAAAAAAI54/btxOta-hPtQFjyeBtkTtBv4I08SD0c5EQCLcBGAsYHQ/s600/game8.webp',
-        href:"https://ffsoporte.garena.com/hc/es-419"
-    },
+    // {   
+    //     id:"8",
+    //     game:"freefire",
+    //     img: 'https://1.bp.blogspot.com/-ruHxpeiHl4E/YAtxHrzftqI/AAAAAAAAI54/btxOta-hPtQFjyeBtkTtBv4I08SD0c5EQCLcBGAsYHQ/s600/game8.webp',
+    //     href:"https://ffsoporte.garena.com/hc/es-419"
+    // },
 ]
 export default games
